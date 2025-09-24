@@ -1,12 +1,12 @@
 import "@/global.css"
 import React from 'react'
 import { Image, View } from 'react-native'
-import CustomText from "./CustomText"
-import IconButton from "./IconButton"
+import CustomText from "./ui/CustomText"
+import IconButton from "./ui/IconButton"
 
 const ProfileDetails = () => {
   return (
-    <View className="flex justify-center items-center">
+    <View className="flex justify-center items-center h-1/2 w-screen">
       <Image
         source={require('../assets/images/icon.png')}
         className="max-h-36 max-w-36 rounded-full"
